@@ -6,15 +6,15 @@ body {
 .hero,
 .footer {
     background-color: #1F2937;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .content,
 .quote,
 .sign-up {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 /* Header */
@@ -134,3 +134,26 @@ ul {
     text-align: center;
     font-size: 18px;
 }
+
+/* Quote */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main-quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
