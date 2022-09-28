@@ -182,4 +182,13 @@ ul {
     border: 2px solid #F9FAF8;
 }
 
+/* Footer */
 
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
