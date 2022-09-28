@@ -11,8 +11,7 @@ body {
 }
 
 .content,
-.quote,
-.sign-up {
+.quote{
     padding-left: 300px;
     padding-right: 300px;
 }
@@ -80,7 +79,7 @@ ul {
 #signup-one,
 #signup-two {
     width: 100px;
-    padding: 5px;
+    padding: 3px 5px;
     border-radius: 8px;
 }
 
@@ -156,4 +155,31 @@ ul {
     font-weight: bold;
     padding-right: 10px;
 }
+
+/* Sign up */
+
+.sign-up {
+    background-color: #3882F6;
+    margin: 70px 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.sign-up-content {
+    color:#F9FAF8;
+}
+
+.sign-up-content-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#signup-two {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+}
+
 
