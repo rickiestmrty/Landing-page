@@ -112,6 +112,13 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    padding-bottom: 50px;
+}
+
+.subtext {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .content-subtexts .subtext .img-placeholder {
